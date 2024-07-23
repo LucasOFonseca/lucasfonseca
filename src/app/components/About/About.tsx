@@ -3,8 +3,16 @@ import Image from 'next/image';
 export const About: React.FC = () => {
   return (
     <div className="w-full max-w-[1320px] flex justify-between items-center">
-      <div className="max-w-[725px]">
+      <div className="xl:max-w-[725px]">
         <h2 className="mb-8">Hello world!</h2>
+
+        <Image
+          src="/Photo.png"
+          width={200}
+          height={300}
+          className="block mx-auto xl:hidden"
+          alt="Lucas Fonseca"
+        />
 
         <p>
           Olá, sou Lucas Oliveira Fonseca, um entusiasta de tecnologia e design,
@@ -30,7 +38,13 @@ export const About: React.FC = () => {
         </p>
       </div>
 
-      <Image src="/Photo.png" width={384} height={424} alt="Lucas Fonseca" />
+      <Image
+        src="/Photo.png"
+        width={384}
+        height={424}
+        className="hidden xl:block"
+        alt="Lucas Fonseca"
+      />
     </div>
   );
 };

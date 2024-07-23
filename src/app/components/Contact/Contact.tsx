@@ -59,12 +59,12 @@ export const Contact: React.FC = () => {
       <h3>Quer conversar?</h3>
 
       <div className="flex flex-col items-center gap-4 w-full max-w-[700px] mt-8">
-        <div className="flex gap-2 w-full">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-2 w-full">
           <Input placeholder="Nome" {...register('name')} />
           <Input placeholder="Empresa" {...register('company')} />
         </div>
 
-        <div className="flex gap-2 w-full">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-2 w-full">
           <Input type="email" placeholder="E-mail" {...register('email')} />
           <Input type="tel" placeholder="Telefone" {...register('phone')} />
         </div>

@@ -40,7 +40,7 @@ const projects: Project[] = [
 
 export const Projects: React.FC = () => {
   return (
-    <div className="w-full max-w-[1320px] mt-8">
+    <div className="w-full max-w-[1320px] mt-8 left-to-right-block">
       <h2>Meus projetos</h2>
 
       <div className="flex justify-center gap-8 flex-wrap mt-8">

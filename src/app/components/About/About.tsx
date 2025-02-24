@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export const About: React.FC = () => {
   return (
-    <div className="w-full max-w-[1320px] flex justify-between items-center">
+    <div className="w-full max-w-[1320px] flex justify-between items-center appear-block">
       <div className="xl:max-w-[725px]">
         <h2 className="mb-8">Hello world!</h2>
 

@@ -40,7 +40,7 @@ const techs = [
 
 export const Techs: React.FC = () => {
   return (
-    <div className="w-full max-w-[1320px] mt-8">
+    <div className="w-full max-w-[1320px] mt-8 left-to-right-block">
       <h3>Minhas tecnologias</h3>
 
       <div className="flex flex-col gap-8 mt-8">

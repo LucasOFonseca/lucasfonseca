@@ -55,7 +55,7 @@ export const Contact: React.FC = () => {
   };
 
   return (
-    <div className="w-full max-w-[1320px] flex flex-col items-center mt-40">
+    <div className="w-full max-w-[1320px] flex flex-col items-center mt-40 appear-block">
       <h3>Quer conversar?</h3>
 
       <div className="flex flex-col items-center gap-4 w-full max-w-[700px] mt-8">

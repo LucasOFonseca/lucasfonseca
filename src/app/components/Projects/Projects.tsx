@@ -36,6 +36,15 @@ const projects: Project[] = [
     description:
       'Projeto entregue como Trabalho de Conclusão de Curso. Trata-se de um sistema de gestão acadêmica completo.',
   },
+  {
+    title: 'Pokedex',
+    cover: '/pokedex.png',
+    url: 'https://angular-pokedex-five.vercel.app',
+    github: 'https://github.com/LucasOFonseca/angular-pokedex',
+    tags: ['Angular', 'TypeScript', 'TailwindCSS'],
+    description:
+      'Projeto de uma Pokedex desenvolvido com Angular e consumindo uma API externa.',
+  },
 ];
 
 export const Projects: React.FC = () => {

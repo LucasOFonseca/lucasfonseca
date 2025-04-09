@@ -1,3 +1,4 @@
+import { AngularIcon } from '@/assets/AngularIcon';
 import { ElectronIcon } from '@/assets/ElectronIcon';
 import { NestIcon } from '@/assets/NestIcon';
 import { NextIcon } from '@/assets/NextIcon';
@@ -25,6 +26,11 @@ const techs = [
     icon: <NextIcon />,
     title: 'NextJS',
     value: 95,
+  },
+  {
+    icon: <AngularIcon />,
+    title: 'Angular',
+    value: 25,
   },
   {
     icon: <NodeIcon />,
